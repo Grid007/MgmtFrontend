@@ -25,7 +25,7 @@ const cache = new InMemoryCache({
 });
 
 const client = new ApolloClient({
-  uri: 'https://workflowutility.onrender.com/graphql',
+  uri: 'https://{your-backend-url}/graphql',
   cache,
 });
 
